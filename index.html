@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Internet access and broadband capacity in Poland</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Internet access and broadband capacity in Poland">
+  <meta name="author" content="Dominik Batorski">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Internet access and broadband capacity in Poland</h1>
+    <h2></h2>
+    <p>Dominik Batorski<br/>https://dbatorski.shinyapps.io/App3/</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Introduction</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The <a href="http://ec.europa.eu/digital-agenda/digital-agenda-europe">Digital Agenda for Europe</a> is the EU&#39;s strategy to help digital technologies, including the internet, to deliver sustainable economic growth. One of the goals of Digital Agenda is to ensure that by 2020 all Europeans can have access to much faster internet (see: <a href="http://ec.europa.eu/digital-agenda/en/our-goals/pillar-iv-fast-and-ultra-fast-internet-access">link1</a>).</p>
+
+<p>&quot;<em>The EU aims to bring basic broadband to all Europeans by 2013 and to ensure that, by 2020,</em> </p>
+
+<ul>
+<li><p><em>all Europeans have access to much higher internet speeds of above 30 Mbps and</em> </p></li>
+<li><p><em>50% or more of European households subscribe to internet access above 100 Mbps.</em>&quot;</p></li>
+</ul>
+
+<p>These goals and target values may seem too ambitious. </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Shiny app</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This <a href="https://dbatorski.shinyapps.io/App3/">https://dbatorski.shinyapps.io/App3/</a> shiny app was developed by <a href="pl.linkedin.com/in/dbatorski/">Dominik Batorski</a> to verify whether these targets are realistic for Poland, i.e. the sixth largest country in EU.</p>
+
+<p>The app has three tabs:</p>
+
+<ol>
+<li><p><strong>Introduction</strong> with basic information about the app. </p></li>
+<li><p><strong>Internet speed 2003-2013</strong> with a plot that shows the distribution of internet connections with different bandwiths in households in Poland between 2003 and 2013. </p></li>
+<li><p><strong>Prediction 2020</strong> where you can test 3 scenarios to predict future average values of internet bandwith as well as percentages of households with 30Mbps and 100Mbps, i.e. the goals of the Digital Agenda.</p></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Internet speed 2003-2013 tab</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/DiagnozaSpol-1.png" title="plot of chunk DiagnozaSpol" alt="plot of chunk DiagnozaSpol" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>The doubling trend - a basis for prediction</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/Dane-1.png" title="plot of chunk Dane" alt="plot of chunk Dane" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="nobackground quote" id="slide-5" style="background:;">
+  <article data-timings="">
+    <p>The prediction is based on the observation that:</p>
+
+<p><q>Between 2003 and 2013 <font color="red"><b>an average internet speed in connected households in Poland doubled every 18 months</b></font>.</q></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Prediction 2020 tab</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/Wykres-1.png" title="plot of chunk Wykres" alt="plot of chunk Wykres" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Links</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This shiny app is available <a href="https://dbatorski.shinyapps.io/App3/">here</a>.</p>
+
+<p>The R code is on <a href="https://github.com/dbatorski/DevDataProducts">github</a>. </p>
+
+<p>Author: <a href="pl.linkedin.com/in/dbatorski/">Dominik Batorski</a> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Introduction'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Shiny app'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Internet speed 2003-2013 tab'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='The doubling trend - a basis for prediction'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title=''>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Prediction 2020 tab'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Links'>
+         7
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
